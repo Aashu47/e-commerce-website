@@ -1,0 +1,30 @@
+{
+  "name": "e-commerce-website",
+  "version": "1.0.0",
+  "description": "ecommerce rest api",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js ",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aashu47/e-commerce-website.git"
+  },
+  "keywords": [],
+  "author": "Aayush Thakur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aashu47/e-commerce-website/issues"
+  },
+  "homepage": "https://github.com/Aashu47/e-commerce-website#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
